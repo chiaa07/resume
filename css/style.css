@@ -68,9 +68,10 @@ max-height:650px;
 
 .about img {
 	overflow:hidden;
-	box-shadow:2px 2px 4px gray;
-	border-radius: 60%;
 	transform:scale(1,1);transition: all 0.5s ease-out;
+
+	
+		padding-top: 60px
 	}
 
 .about img:hover{
