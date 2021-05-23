@@ -16,9 +16,8 @@ p {
 
 
 .navbar-brand img {
-	height: 100px;
-	width: 70px;
-	border-radius: 60%;
+	height: 70px;
+border-radius: 60%;
 	
 }
 
@@ -27,7 +26,7 @@ p {
 
 /*nav選單*/
 	.navbar{
-	background-color:weight;
+
 	padding-left:50px!important;
 	padding-right:50px!important; 
 }
@@ -78,6 +77,10 @@ max-height:650px;
 	transform:scale(1.2,1.2);
 	}
 
+.word {
+font-family:Times New Roman;
+font-size: 1em;
+}
 
 
 .title {
@@ -252,10 +255,7 @@ footer p {
 
 @media (min-width: 768px) {
 /*nav選單*/
-	.navbar{
-	padding-left:50px!important;
-	padding-right:50px!important; 
-	 background-color:white;
+	
 
 }
 }
