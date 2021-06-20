@@ -6,11 +6,16 @@ html{
 	box-sizing: border-box;
 }
 p,h1,h2,h3,h4,h4,h6,div,span {
-	font-family:PingFangSC-Regular,sans-serif,Microsoft JhengHei;	
+	font-family:georgia,sans-serif,georgia;	
 }
 
 p {
 	font-size: 16px;
+}
+
+
+@font-face {
+	font-family: georgia;
 }
 
 
@@ -193,6 +198,9 @@ font-size: 1em;
 	background-position: top center;
 }
 
+
+
+
 .contact .title {
 	color:#ffffff;
 }
@@ -246,8 +254,9 @@ input[type=submit]:hover {
 
 /*footer*/
 footer {
-	background-color: #cbcab8;
+	background-color:#cbcab8 ; 
 	padding:20px 0; 
+	margin-top: 50px;
 }
 
 footer p {
@@ -262,6 +271,105 @@ footer p {
 }
 
 
+.contact2{ 
+background-color:blue; 
+  color: white;
+  overflow: hidden ;
+
+}
+ 
+  
+  .mails{
+  	height: 400px;
+    max-width: 500px;
+    padding-top: 30px;
+
+  }
+    
+    .mailbody{
+background-color: white;
+      color: black;
+      padding: 20px;
+      padding-left: 60px;
+      margin-left: 80px;
+      margin-top: 40px;
+   
+      position: absolute;
+      width: 75%;
+      height: 75%;
+      transform: translateX(-30px);
+      margin-bottom:50px; 
+ 
+}
+
+  .mailbody label{
+      margin-top: 1px
+ }
+
+   
+      .mailbody input,textarea{
+      display: block;
+      background-color: transparent;
+      
+      border: none;
+      border: solid 3px;color:black;
+      padding: 1px 2px;}
+      
+    .mailbody textarea{
+      height: 50px;
+      width: 100%;}
+
+
+
+    .mailcover{
+
+    position: absolute;
+      top: 70%
+      transform: rotate(5deg) scale(2.1) translate(-50%,-50%);
+     margin-bottom:50px;
+       }
+
+         .mailcover img{
+      width: 100%;
+      height: 80%;}
+
+      .mailscontact
+      {
+      	margin-top: 50px;
+      	padding-top: 30px;
+      	padding-left: 30px;
+    ;
+      }
+
+
+      mark.green {
+	border-bottom: 10px solid #FDE199;
+	background: none;
+	
+	
+   color:#C29634;
+}
+
+      
+
+
+
+
+
+
+
+      
+
+
+
+
+
+
+
+
+
+
+     
 
 
 
